@@ -17,6 +17,4 @@ Given the data set, the goal is to determine which loan applications will be "su
 * To try to reach the .75 accuracy, I tried many different neurons and different activation functions as well as adding and removing layers. I took out the input features "Special Considerations" and "Status", also without marked improvement. I further bucketed Affiliation and Income Amount in another attempt to increas accuracy, but again it did not improve results.
 
 ## Summary:
-
-There is a summary of the results (2 pt)
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+I did not achieve the desired results from the neural network models. I would try logistic regression or random forest sampling on this dataset. These models might be better at determining which features best predict the outcome.
